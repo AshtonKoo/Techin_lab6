@@ -3,11 +3,13 @@ import os
 import openai
 import streamlit as st
 import pdfplumber
-from dotenv import load_dotenv
 
-load_dotenv()
+# 设置 OpenAI API 密钥和基础网址
+OPENAI_API_KEY = "4AqqYoTn277PDToPlplxH8LAE97BShji4jbcFBE57RA"
+OPENAI_API_BASE = "https://openai.0x1.tw/api/providers/openai/v1"
 
-openai.api_key = os.getenv("4AqqYoTn277PDToPlplxH8LAE97BShji4jbcFBE57RA")
+openai.api_key = OPENAI_API_KEY
+openai.api_base = OPENAI_API_BASE
 
 st.set_page_config(page_title="PDF AI Chat Bot", page_icon="🤖")
 
