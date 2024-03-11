@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv("4AqqYoTn277PDToPlplxH8LAE97BShji4jbcFBE57RA")
 
 st.set_page_config(page_title="PDF AI Chat Bot", page_icon="🤖")
 
