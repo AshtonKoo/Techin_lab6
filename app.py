@@ -4,7 +4,6 @@ import openai
 import streamlit as st
 import pdfplumber
 
-# 设置 OpenAI API 密钥和基础网址
 OPENAI_API_KEY = "4AqqYoTn277PDToPlplxH8LAE97BShji4jbcFBE57RA"
 OPENAI_API_BASE = "https://openai.0x1.tw/api/providers/openai/v1"
 
